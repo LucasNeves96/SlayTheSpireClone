@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4963377071095509235}
   - component: {fileID: 2595165822397098359}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 3628812900696538373}
   - component: {fileID: 5871194539655265022}
   m_Layer: 0
-  m_Name: CardImage
+  m_Name: CardVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,7 +523,7 @@ MonoBehaviour:
   Image: {fileID: 3352458046808855221}
   ManaValue: {fileID: 33025493003336269}
   Title: {fileID: 7190873573174488599}
-  Text: {fileID: 2595165822397098359}
+  Description: {fileID: 2595165822397098359}
   Wrapper: {fileID: 8953958652693341292}
 --- !u!1 &5170796292124717078
 GameObject:
