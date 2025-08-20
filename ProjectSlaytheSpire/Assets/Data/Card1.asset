@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171265ddbf04efcddb8553428d9d8a25, type: 3}
   m_Name: Card1
   m_EditorClassIdentifier: 
-  Description: 
-  cardValue: 0
+  <Title>k__BackingField: Card1
+  <Description>k__BackingField: I have description
+  <Mana>k__BackingField: 2
+  <Image>k__BackingField: {fileID: 21300000, guid: cb8e5b7f94d0325839312d6289422750, type: 3}

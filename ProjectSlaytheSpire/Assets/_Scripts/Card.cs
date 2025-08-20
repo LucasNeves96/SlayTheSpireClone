@@ -16,5 +16,4 @@ public class Card
         this.Mana = cardData.Mana;
         this.Image = cardData.Image;
     }
-
 }

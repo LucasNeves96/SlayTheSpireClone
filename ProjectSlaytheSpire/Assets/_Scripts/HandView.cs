@@ -26,6 +26,7 @@ public class HandView : MonoBehaviour
         for (int i = 0; i < cards.Count; i++)
         {
             float p = firstCardPosition + i * cardSpacing;
+            
             Vector3 splinePosition = spline.EvaluatePosition(p);
             Vector3 forward = spline.EvaluateTangent(p);
             Vector3 up = spline.EvaluateUpVector(p);

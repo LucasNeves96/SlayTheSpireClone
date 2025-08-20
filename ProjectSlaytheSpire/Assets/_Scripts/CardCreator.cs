@@ -22,12 +22,13 @@ public class CardCreator : MonoBehaviour
 
     public int test = 0;
 
-    public CardVisual CreateCardVisual(Vector3 position, Quaternion quaternion)
+    public CardVisual CreateCardVisual(Card card, Vector3 position, Quaternion quaternion)
     {
         CardVisual cardVisual = Instantiate(cardVisualPrefab, position, quaternion);
         cardVisual.transform.localScale = Vector3.zero;
         cardVisual.transform.DOScale(Vector3.one, 0.15f);
-
+        cardVisual.Setup(card);
+        
         return cardVisual;
     } 
 
